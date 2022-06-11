@@ -41,10 +41,10 @@
     "prefer-stable": true,
     "require": {
         "php": ">=5.5",
-        "2amigos/yii2-selectize-widget": "^1.1",
+        "2amigos/yii2-selectize-widget": "dev-master",
         "yiisoft/yii2-authclient": "^2.1",
         "yiisoft/yii2-httpclient": "^2.0",
-        "yiisoft/yii2-bootstrap": "^2.0",
+        "yiisoft/yii2-bootstrap5": "^2.0",
         "yiisoft/yii2-swiftmailer": "^2.0"
     },
     "suggest": {
@@ -79,6 +79,9 @@
         },
         "fxp-asset": {
             "enabled": false
+        },
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
         }
     },
     "conflict": {
@@ -92,6 +95,10 @@
         {
             "type": "composer",
             "url": "https://asset-packagist.org"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:deivissong/yii2-selectize-widget.git"
         }
     ]
 }
