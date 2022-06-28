@@ -41,11 +41,11 @@
     "prefer-stable": true,
     "require": {
         "php": ">=5.5",
-        "2amigos/yii2-selectize-widget": "dev-master",
         "yiisoft/yii2-authclient": "^2.1",
         "yiisoft/yii2-httpclient": "^2.0",
         "yiisoft/yii2-bootstrap5": "^2.0",
-        "yiisoft/yii2-swiftmailer": "^2.0"
+        "yiisoft/yii2-swiftmailer": "^2.0",
+        "kartik-v/yii2-widget-select2": "dev-master"
     },
     "suggest": {
         "2amigos/2fa-library": "Needed if you want to enable 2 Factor Authentication. Require version ^1.0",
@@ -95,10 +95,6 @@
         {
             "type": "composer",
             "url": "https://asset-packagist.org"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:deivissong/yii2-selectize-widget.git"
         }
     ]
 }
